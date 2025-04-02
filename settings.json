@@ -1,0 +1,22 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "livePreview.notifyOnOpenLooseFile": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.lineHeight": 1.6,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": false,
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
+    "workbench.sideBar.location": "left",
+    "mssql.enableRichExperiences": true,
+    "database-client.autoSync": true
+}

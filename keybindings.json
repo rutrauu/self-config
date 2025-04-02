@@ -1,0 +1,198 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-liveshare.join",
+        "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "cursorWordEndRightSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+j",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+l",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+t",
+        "command": "workbench.action.selectTheme"
+    },
+    {
+        "key": "ctrl+k ctrl+t",
+        "command": "-workbench.action.selectTheme"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+q",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+k ctrl+q",
+        "command": "-workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+alt+c",
+        "command": "workbench.action.addComment",
+        "when": "activeCursorHasCommentingRange"
+    },
+    {
+        "key": "ctrl+k ctrl+alt+c",
+        "command": "-workbench.action.addComment",
+        "when": "activeCursorHasCommentingRange"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.action.chat.openEditSession",
+        "when": "chatEditingParticipantRegistered && view != 'workbench.panel.chat.view.edits'"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.panel.chatEditing",
+        "when": "workbench.panel.chat.view.edits.active"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "ctrl+shift+oem_1",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+shift+l",
+        "command": "-testing.coverageLastRun"
+    },
+    {
+        "key": "ctrl+shift+oem_1",
+        "command": "addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "scrollLineDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "scrollLineUp",
+        "when": "textInputFocus"
+    }
+]
