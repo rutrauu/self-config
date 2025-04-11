@@ -7,7 +7,7 @@
     "editor.fontLigatures": true,
     "editor.fontVariations": false,
     "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Nord",
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
     "explorer.compactFolders": false,
@@ -18,5 +18,20 @@
     "editor.scrollbar.vertical": "auto",
     "workbench.sideBar.location": "left",
     "mssql.enableRichExperiences": true,
-    "database-client.autoSync": true
+    "database-client.autoSync": true,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "4F56C3DC-9500-4FF5-AC87-F2D450100E33"
+        }
+    ],
+    "mssql.connections": [],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "mssql.enableQueryHistoryCapture": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
 }
