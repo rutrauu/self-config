@@ -33,5 +33,5 @@
         "scminput": false
     },
     "mssql.enableQueryHistoryCapture": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
