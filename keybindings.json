@@ -300,5 +300,9 @@
     "key": "ctrl+shift+b",
     "command": "-workbench.action.tasks.build",
     "when": "taskCommandsRegistered"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.terminal.focus"
   }
 ]
