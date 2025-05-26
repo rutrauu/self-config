@@ -1,12 +1,13 @@
 {
     "security.workspace.trust.untrustedFiles": "open",
     "livePreview.notifyOnOpenLooseFile": false,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
     "editor.lineHeight": 1.6,
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontLigatures": true,
     "editor.fontVariations": false,
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Nord",
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
@@ -33,5 +34,7 @@
         "scminput": false
     },
     "mssql.enableQueryHistoryCapture": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never"
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
 }
