@@ -1,40 +1,69 @@
 {
-    "security.workspace.trust.untrustedFiles": "open",
-    "livePreview.notifyOnOpenLooseFile": false,
-    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 1.6,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.fontLigatures": true,
-    "editor.fontVariations": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nord",
-    "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "auto",
-    "workbench.sideBar.location": "left",
-    "mssql.enableRichExperiences": true,
-    "database-client.autoSync": true,
-    "mssql.connectionGroups": [
-        {
-            "name": "ROOT",
-            "id": "4F56C3DC-9500-4FF5-AC87-F2D450100E33"
-        }
-    ],
-    "mssql.connections": [],
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
+  "security.workspace.trust.untrustedFiles": "open",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Liga MesloLGM Nerd Font",
+  "editor.fontSize": 14, 
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontSize": 14,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "editor.fontVariations": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Nord",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "auto",
+  "workbench.sideBar.location": "left",
+  "mssql.enableRichExperiences": true,
+  "database-client.autoSync": true,
+  "mssql.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "4F56C3DC-9500-4FF5-AC87-F2D450100E33"
+    }
+  ],
+  "mssql.connections": [],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "mssql.enableQueryHistoryCapture": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-24.04 (WSL)",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "mssql.enableQueryHistoryCapture": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "workbench.activityBar.visible": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-24.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-24.04"
+      ]
+    }
+  },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "workbench.editor.empty.hint": "hidden"
 }
